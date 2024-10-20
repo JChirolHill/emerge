@@ -1,0 +1,10 @@
+.hero {
+    background-color: var(--em-primary);
+    color: white;
+    text-shadow: 0px 0px 10px #1d253a;
+    border-bottom: solid var(--em-ternary) 5px;
+}
+
+.hero span {
+    color: var(--em-ternary);
+}

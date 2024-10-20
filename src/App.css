@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --em-background: #fbf6ef;
+    --em-primary: #465372;
+    --em-secondary: #C3ACA7;
+    --em-ternary: #FCEFDE;
+}
+
+body {
+    background-color: var(--em-background);
+    color: var(--em-primary);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.hero {
+    background-color: var(--em-primary);
+    color: white;
+    text-shadow: 0px 0px 10px #1d253a;
+    border-bottom: solid var(--em-ternary) 5px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2em;
+}
+
+textarea {
+    border-radius: 10px;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.divider {
+    border-right: 1px solid var(--em-primary);
+}
+
+.spaced-vertically {
+    line-height: 2.5rem;
+}
+
+.correctionBlock {
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid var(--em-primary);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.correctionBlock > div:first-child {
+    color: black;
+    border-bottom: 1px solid var(--em-primary);
+    margin: 0 0 0.5em 0;
+}
+
+.correction-added {
+    /* color: #2053cb; */
+    color: #0f97ff;
+}
+
+.correction-removed {
+    color: #a5abbb;
+    text-decoration: line-through;
+}
+
+.correction-same {
+    color: black;
+}
+
+.marked-up {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.marked-up span {
+    display: inline-block;
+    width: 600px;
+    white-space: normal;
+}
